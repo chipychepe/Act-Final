@@ -1,0 +1,109 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proyecto Fútbol</title>
+    <link rel="stylesheet" href="stylo/estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>⚽ Proyecto Fútbol</h1>
+        <nav>
+            <a href="SvJugadorListar">Jugadores</a>
+            <a href="SvEquipoListar">Equipos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portada">
+            <p class="etiqueta">SISTEMA DE GESTIÓN</p>
+            <h2>Bienvenido al Proyecto Fútbol</h2>
+            <p>Administrá la información de jugadores y equipos desde un solo lugar.</p>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <div class="icono">⚽</div>
+                    <h3>Jugadores</h3>
+                    <p>Consultá los jugadores registrados, sus posiciones, dorsales y nacionalidades.</p>
+                    <a class="boton" href="SvJugadorListar">Ver jugadores</a>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="icono">🏆</div>
+                    <h3>Equipos</h3>
+                    <p>Consultá los equipos, sus ciudades, estadios y títulos obtenidos.</p>
+                    <a class="boton" href="SvEquipoListar">Ver equipos</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion-tecnica">
+            <h2>Operaciones del sistema</h2>
+            <p>Funciones disponibles para administrar la información.</p>
+
+            <div class="tabla-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Servlet</th>
+                            <th>Método</th>
+                            <th>Función</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SvJugadorListar</td>
+                            <td>GET</td>
+                            <td>Listar y buscar jugadores</td>
+                        </tr>
+                        <tr>
+                            <td>SvJugadorCrear</td>
+                            <td>POST</td>
+                            <td>Registrar jugadores</td>
+                        </tr>
+                        <tr>
+                            <td>SvJugadorEditar</td>
+                            <td>GET / POST</td>
+                            <td>Editar jugadores</td>
+                        </tr>
+                        <tr>
+                            <td>SvJugadorEliminar</td>
+                            <td>POST</td>
+                            <td>Eliminar jugadores</td>
+                        </tr>
+                        <tr>
+                            <td>SvEquipoListar</td>
+                            <td>GET</td>
+                            <td>Listar equipos</td>
+                        </tr>
+                        <tr>
+                            <td>SvEquipoCrear</td>
+                            <td>POST</td>
+                            <td>Registrar equipos</td>
+                        </tr>
+                        <tr>
+                            <td>SvEquipoEditar</td>
+                            <td>GET / POST</td>
+                            <td>Editar equipos</td>
+                        </tr>
+                        <tr>
+                            <td>SvEquipoEliminar</td>
+                            <td>POST</td>
+                            <td>Eliminar equipos</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Benjamin Berrios y Jefferson Mallon — Instituto Técnico Ntra. Sra. de Fátima (A-893)
+    </footer>
+
+</body>
+</html>
+```
